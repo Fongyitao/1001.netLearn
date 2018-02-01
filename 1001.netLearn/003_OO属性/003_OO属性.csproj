@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E41B52F2-E46E-4F09-B217-213B73AB080C}</ProjectGuid>
+    <ProjectGuid>{E70A3305-37C1-4926-9A4D-83E4EF120CE1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_002_打开文件练习</RootNamespace>
-    <AssemblyName>002_打开文件练习</AssemblyName>
+    <RootNamespace>_003_OO属性</RootNamespace>
+    <AssemblyName>003_OO属性</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

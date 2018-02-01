@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace _002_打开文件练习
 {
@@ -14,13 +18,13 @@ namespace _002_打开文件练习
             string fileName = Console.ReadLine();
 
             BaseFile bf = GetFile(filePath, fileName);
-            if (bf!=null)
+            if (bf != null)
             {
                 bf.OpenFile();
             }
 
         }
-        static BaseFile GetFile(string filePath,string fileName)
+        static BaseFile GetFile(string filePath, string fileName)
         {
             BaseFile bf = null;
             string strExtension = Path.GetExtension(fileName);
@@ -43,7 +47,7 @@ namespace _002_打开文件练习
         public string FilePath { get => _filePath; set => _filePath = value; }
         public string FileName { get; set; }
 
-        public BaseFile(string filePaht,string fileName)
+        public BaseFile(string filePaht, string fileName)
         {
             this.FilePath = filePaht;
             this.FileName = fileName;
@@ -53,8 +57,10 @@ namespace _002_打开文件练习
         public void OpenFile()
         {
             ProcessStartInfo psi = new ProcessStartInfo(this.FilePath + "\\" + this.FileName);
-            Process pro = new Process();
-            pro.StartInfo = psi;
+            Process pro = new Process
+            {
+                StartInfo = psi
+            };
             pro.Start();
         }
     }
@@ -64,6 +70,4 @@ namespace _002_打开文件练习
         {
         }
     }
-
-
 }
