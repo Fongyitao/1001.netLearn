@@ -53,7 +53,7 @@ namespace _002_打开文件练习
             this.FileName = fileName;
         }
 
-        //设计一个打开文件的函数,//抛异常不知道什么问题
+        //设计一个打开文件的函数
         public void OpenFile()
         {
             ProcessStartInfo psi = new ProcessStartInfo(this.FilePath + "\\" + this.FileName);

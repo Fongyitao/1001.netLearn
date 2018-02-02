@@ -9,6 +9,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_打开文件练习", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_进程", "001_进程\001_进程.csproj", "{1035421D-9907-4329-9A3F-7D61859EEC5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_List泛型集合", "004_List泛型集合\004_List泛型集合.csproj", "{AF9D7808-A38D-4918-A912-9D60ED80E7CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Dictionary字典集合", "005_Dictionary字典集合\005_Dictionary字典集合.csproj", "{68B44B34-51C4-4E46-946F-781C0146705C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_FileStream", "006_FileStream\006_FileStream.csproj", "{94A69F15-37E1-4020-83B3-C1039D4B3765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_多态之虚方法", "007_多态之虚方法\007_多态之虚方法.csproj", "{53A0187F-A8F7-451F-8520-FDFE62EFF8AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_多态之抽象类", "008_多态之抽象类\008_多态之抽象类.csproj", "{E8A2583E-89C0-43C7-B8F2-0F9E38CAC794}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F37C5967-D6C2-46DE-AFB6-325569003FAC}"
+	ProjectSection(SolutionItems) = preProject
+		VS常用快捷键.txt = VS常用快捷键.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_多态模拟移动硬盘MP3和U盘", "009_多态模拟移动硬盘MP3和U盘\009_多态模拟移动硬盘MP3和U盘.csproj", "{0EE9D3A3-EAC8-4904-8825-014A4CB952FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +44,30 @@ Global
 		{1035421D-9907-4329-9A3F-7D61859EEC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1035421D-9907-4329-9A3F-7D61859EEC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1035421D-9907-4329-9A3F-7D61859EEC5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9D7808-A38D-4918-A912-9D60ED80E7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9D7808-A38D-4918-A912-9D60ED80E7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9D7808-A38D-4918-A912-9D60ED80E7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9D7808-A38D-4918-A912-9D60ED80E7CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B44B34-51C4-4E46-946F-781C0146705C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B44B34-51C4-4E46-946F-781C0146705C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B44B34-51C4-4E46-946F-781C0146705C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B44B34-51C4-4E46-946F-781C0146705C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A69F15-37E1-4020-83B3-C1039D4B3765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A69F15-37E1-4020-83B3-C1039D4B3765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A69F15-37E1-4020-83B3-C1039D4B3765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A69F15-37E1-4020-83B3-C1039D4B3765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A0187F-A8F7-451F-8520-FDFE62EFF8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A0187F-A8F7-451F-8520-FDFE62EFF8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A0187F-A8F7-451F-8520-FDFE62EFF8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A0187F-A8F7-451F-8520-FDFE62EFF8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A2583E-89C0-43C7-B8F2-0F9E38CAC794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A2583E-89C0-43C7-B8F2-0F9E38CAC794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A2583E-89C0-43C7-B8F2-0F9E38CAC794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A2583E-89C0-43C7-B8F2-0F9E38CAC794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE9D3A3-EAC8-4904-8825-014A4CB952FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE9D3A3-EAC8-4904-8825-014A4CB952FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE9D3A3-EAC8-4904-8825-014A4CB952FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE9D3A3-EAC8-4904-8825-014A4CB952FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
