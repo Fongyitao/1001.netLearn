@@ -45,7 +45,7 @@ namespace _006_FileStream
                     //}
 
 
-                    for (int len ;(len = fsRead1.Read(buffer1,0,buffer1.Length)) != -1;)
+                    for (int len ;(len = fsRead1.Read(buffer1,0,buffer1.Length)) > 0;)
                     {
                         fsWrite.Write(buffer1, 0, count: len);
                     }
