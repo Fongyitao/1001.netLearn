@@ -44,10 +44,10 @@ namespace _006_FileStream
 
                     //}
 
-                    for (int i = -1 ;i != 0;)
+
+                    for (int len ;(len = fsRead1.Read(buffer1,0,buffer1.Length)) != -1;)
                     {
-                        i = fsRead1.Read(buffer1, 0, buffer1.Length);
-                        fsWrite.Write(buffer1, 0, i);
+                        fsWrite.Write(buffer1, 0, count: len);
                     }
                     
                 }
